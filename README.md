@@ -22,5 +22,5 @@ In this project we perform CRUD operations and hibernet mapping.
 # Project Summery
 * use spring intializer to create this project.
 * Project having model user and post.
-* using this project we manage user post and manage post info also and find details about post.
+* fusing this project we manage user post and manage post info also and find details about post.
  

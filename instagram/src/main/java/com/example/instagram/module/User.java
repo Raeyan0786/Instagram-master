@@ -23,13 +23,22 @@ public class User {
     private String lastName;
 
     @Column(name = "age")
-    private Integer age;
+    private int age;
 
     @Column(name = "email")
-    private String email;
+    private String userEmail;
+    @Column(name = "password")
+    private String userPassword;
 
     @Column(name = "phone_number")
     private String phoneNumber;
 
-
+    public User(String firstName, String lastName, Integer age, String userEmail, String userPassword, String phoneNumber) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.userEmail = userEmail;
+        this.userPassword = userPassword;
+        this.phoneNumber = phoneNumber;
+    }
 }

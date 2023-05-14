@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import java.sql.Timestamp;
 
 @RestController
+@RequestMapping("/post")
 public class PostController {
     @Autowired
     UserRepository userRepository;
