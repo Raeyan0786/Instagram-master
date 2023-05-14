@@ -1,5 +1,5 @@
 # Instagram App
-In this project we perform CRUD operations and hibernet mapping.
+In this project we perform CRUD operations, Authentication for singin or signup and hibernet mapping.
 
 # Framework and language used
 * Springboot Framework.
